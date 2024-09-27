@@ -14,7 +14,6 @@ def word_randomizer(word_length: int):
 # the player can input their guesses.
 def main(user_answer, score, length_word):
   word = word_randomizer(length_word)
-  print(word)
   attempts_allowed = len(word) // 2
   misses = 0
   right_inputs = ''
